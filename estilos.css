@@ -64,7 +64,7 @@ main .personagem .imagem {
 }
 
 .botoes {
-    position: fixed;
+    position: flex;
     top: 0;
     right: 10px;
     background-color: rgba(0, 0, 0, 0.3);
