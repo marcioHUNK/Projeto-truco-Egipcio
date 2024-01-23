@@ -64,7 +64,7 @@ main .personagem .imagem {
 }
 
 .botoes {
-    position: flex;
+    position: absolute;
     top: 0;
     right: 10px;
     background-color: rgba(0, 0, 0, 0.3);
@@ -88,7 +88,7 @@ main .personagem .imagem {
     border-radius: 50%;
 }
 
-.botoes .botao.selecionado{
+.botoes .botao.selecionado {
     transform: scale(1.2);
     box-shadow: 0 0 10px #d9d9d9;
     border-radius: 50%;
